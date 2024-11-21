@@ -20,7 +20,7 @@ body {
   font-size: 32px;
 
   /* background-color: #F4F4F4; */
-  background-color: #e9cfcf;
+  background-color: #e9e9e9;
 }
 
 *,
@@ -49,7 +49,19 @@ p {
   max-width: 1650px;
 }
 
-.section-title,
+.experience-item,
+.section-item {
+  display: flex;
+  justify-content: space-between;
+}
+
+.date,
+.info_subtitle,
+.info_list-item {
+  color: #526269;
+}
+
+/* .section-title,
 .section-subtitle {
   max-width: 880px;
   margin: 40px auto;
@@ -59,15 +71,11 @@ p {
   font-size: 2.875rem;
   text-align: center;
   font-weight: normal;
-}
+} */
 
-.section-title_left {
-  text-align: left;
-}
-
-.section-subtitle {
+/* .section-subtitle {
   font-size: 2.625rem;
-}
+} */
 
 /* header */
 .header {
