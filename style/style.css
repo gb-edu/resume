@@ -1,0 +1,159 @@
+@font-face {
+	font-family: 'InterTight'; 
+	src: url('fonts/InterTight-Regular.ttf'); 
+}
+
+@font-face {
+	font-family: 'InterTight-bold'; 
+	src: url('fonts/InterTight-Bold.ttf'); 
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  margin: 0;
+
+  font-family: 'InterTight', sans-serif;
+  /* font-size: 1.3rem; */
+  font-size: 32px;
+
+  /* background-color: #F4F4F4; */
+  background-color: #e9cfcf;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
+p {
+  margin: 0 0 10px;
+}
+
+/* a {
+  text-decoration: none;
+} */
+
+.container {
+  background-color: #fff;
+  margin: 0 auto;
+  padding: 0 100px;
+  width: 100%;
+  max-width: 1650px;
+}
+
+.section-title,
+.section-subtitle {
+  max-width: 880px;
+  margin: 40px auto;
+  padding-left: 4px;
+  padding-right: 4px;
+
+  font-size: 2.875rem;
+  text-align: center;
+  font-weight: normal;
+}
+
+.section-title_left {
+  text-align: left;
+}
+
+.section-subtitle {
+  font-size: 2.625rem;
+}
+
+/* header */
+.header {
+  
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding-top: 110px;
+
+  /* margin-bottom: 30px; */
+ 
+}
+
+.header-info{
+  width: 930px;
+  max-width: 930px;
+}
+
+.header-item {
+  margin-bottom: 50px;
+}
+
+.header-item:nth-child(4) {
+  margin-bottom: 27px;
+}
+
+.header-photo {
+  /* // flex-grow: 5; */
+  /* padding-left: 8px; */
+}
+
+.headerImg {
+  display: block;
+  width: 340px;
+  /* height: 8px; */
+}
+
+
+/* end header */
+
+/* page index */
+.main {
+  margin-top: 120px;
+}
+
+/* section offers */
+
+.about {
+  margin-top: 70px;
+  margin-bottom: 130px;
+  padding-top: 69px;
+  padding-bottom: 40px;
+  padding-left: 20px;
+  padding-right: 20px;
+
+  background-image: url('../img/mainpage-about_bg.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 20px;
+}
+
+.about-info {
+  display: flex;
+  justify-content: space-between;
+  background-color: #FFF;
+  max-width: 800px;
+  padding: 35px 20px 30px 20px;
+  border-radius: 20px;
+
+  font-size: 1.3rem;
+}
+
+.text-white {
+  color: #FFF;
+}
+/* footer */
+.footer {
+  background-color: #1B1B1B;
+  padding: 47px 0 30px 0;
+}
+/* end footer */
+/* end page index */
+
+
+
+/* media */
+

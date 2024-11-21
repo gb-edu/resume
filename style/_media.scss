@@ -1,0 +1,586 @@
+@media screen and (max-width: 1160px) {
+  .footer {
+    font-size: 0.9rem;
+  }
+  .about-info-text {
+    font-size: 1.2rem;
+  }
+  // page about
+  .history-item-title {
+    font-size: 1rem;
+  }
+  .history-item-text {
+    font-size: 0.875rem;
+  }
+  .history-item-date {
+    font-size: 1.875rem;
+  }
+  // end page about
+
+  // page deactivation
+  .infocards_item-number {
+    width: 70px;
+    height: 70px;
+    font-size: 3rem;
+  }
+  .infocards_item-title {
+    margin: 8px 0 12px;
+    font-size: 1.3rem;
+  }
+  .infocards_item-text {
+    font-size: 0.875rem;
+  }
+  .textimage_content {
+    width: 98%;
+    margin: 0 auto;
+  }
+  .textimage_image {
+    width: 60%;
+    margin: 0 auto;
+  }
+  // end page deactivation
+
+  // page clearing
+  .customer-get_info-img {
+    display: none;   
+  }
+  .customer-get_info_card-item {
+    max-width: 100%;
+  }
+  // end page clearing
+}
+
+@media screen and (max-width: 940px) {
+  .section-title {
+    font-size: 2.475rem;
+  }
+  .section-subtitle {
+    font-size: 2.275rem;
+  }
+  .card-content-wrap {
+    padding: 20px 15px 45px 15px;
+  }
+  .offers-card-title {
+    margin-top: 5px;
+    font-size: 1.2rem;
+  }
+  .about-title-bg {
+    top: 90px;
+  }
+  .about-title {
+    font-size: 2rem;
+  }
+  .about-info {
+    font-size: 1rem;
+  }
+  .about-info-link {
+    font-size: 1.3rem;
+  }
+  .about-info-img-block {
+    margin-right: initial;
+  }
+  .img-block_item img {
+    height: 70px;
+  }
+  // page about
+  .textimage_content {
+    padding-right: 10px;
+  } 
+  .textimage_content-title {
+    font-size: 2.625rem;
+    margin-bottom: 20px;
+  }
+  .textimage-text {
+    font-size: 1rem;
+  }
+  .about-info-text {
+    padding-right: 0;
+  }
+  .about-info-text:nth-child(2) {
+    margin-top: 20px;
+    margin-bottom: 50px;
+  }
+  // end page about
+
+  // page deactivation
+  .infocards {
+    flex-wrap: wrap;
+  }
+  .infocards_item {
+    width: 49%;
+  }
+  .deact-tech-text {
+    margin: 0 auto;
+  }
+  .deact-tech-symbols {
+    justify-content: center;
+  }
+  .deact-treatment .section-title {
+    font-size: 2.1rem;
+  }
+  .deact-treatment-text {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px 15px 0px 15px;
+  }
+  // end section deact-treatment
+  // end page deactivation
+
+  // page clearing
+  .clearing_info-title {
+    font-size: 1.875rem;
+  }  
+  .clearing_info-inner-content,
+  .clearing_info-inner-image {
+    flex-basis: 48%;
+  }
+  .clearing_info-inner-image:nth-child(1) {
+    display: none;
+  }
+  .clearing-info-text {
+    font-size: 0.875rem;
+  }
+  .clearing-order_cards {
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  .clearing-order_cards .iconcard {
+    flex-basis: 40%;
+    align-items: center;
+    margin-right: 0;
+    margin-bottom: 16px;
+  }
+  .clearing-result_img {
+    flex-basis: 100%;
+  }    
+  .clearing-result_img:nth-child(2) {
+    margin: 18px 0 18px 0;
+  }
+  .clearing-result-inner_top {
+    flex-wrap: wrap;
+  }
+  .clearing-result-inner_bottom {
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  .inner_top-info {
+    position: static;
+    margin: auto;
+    margin-top: 8px;
+    max-width: 400px;
+  }
+  .transit-tech-result_info h3 {
+    font-size: 2.3rem;
+    margin-bottom: 12px;
+  }
+  // end page clearing
+
+  // page disinfection
+  .appfield-iconcards {
+    flex-wrap: wrap;
+  }
+  .appfield .iconcard {
+    flex-basis: 100%;
+  }
+  .appfield .iconcard:nth-child(2) {
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  // end page disinfection
+}
+
+@media screen and (max-width: 840px) {
+  .about-info-text {
+    font-size: 1rem;
+  }
+  .offers {
+    margin-top: 60px;
+  }
+  .offers-block {
+    flex-direction: column;
+    align-items: center;
+  }
+  .offers-card,
+  .offers-card:nth-child(2) {
+    margin: 0 0 50px 0;
+  }
+  .offers-card-title {
+    margin-top: 5px;
+    font-size: 1.2rem;
+  }
+  .offers-card-button {
+    bottom: -24px;
+    font-size: 1.3rem;
+    padding: 4px 54px 5px 25px;
+  }
+  .about {
+    margin-top: 40px;
+  }
+  .about-title-bg {
+    top: 62px;
+  }
+  // page about
+  .company {
+    margin-top: 60px;
+    margin-bottom: 70px;
+  }
+  .history-short {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .history-detailed {
+    display: none;
+  }
+  .history-item {
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 40px;
+    max-width: 320px;
+  }
+  .history-item::before {
+    display: none;
+  }
+  .history-item-date {
+    position: absolute;
+    left: 0;
+    top: -40px;
+  }
+  // end page about
+
+  // page deactivation
+  .textimage_content-title {
+    font-size: 2.625rem;
+    margin-bottom: 15px;
+  }
+  // end page deactivation
+
+  // page clearing
+  .clearing-offers-cards {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .clearing-offers-cards .iconcard:nth-child(1) {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+  .clearing-offers-cards .iconcard:nth-child(2) {
+    margin-left: 0;
+  }
+  .clearing-video {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .clearing-video_item:nth-child(1) {
+    margin-right: 0;
+    margin-bottom: 30px;
+  }
+  .clearing-video_item:nth-child(2) {
+    margin-left: 0;
+  }
+  .transit-tech-result {
+    flex-wrap: wrap;
+  }
+  .transit-tech-result_imgblock {
+    max-width: 100%;
+    margin-top: 30px;
+  }
+  .transit-tech-result_info,
+  .transit-tech-result_imgblock {
+    flex-basis: 100%;
+  }
+  // end page clearing
+
+  // page disinfection
+  .des-info-inner {
+    flex-wrap: wrap;
+  }
+  .des-info-inner_item {
+    padding: 10px 0 20px;
+    flex-basis: 100%;
+    text-align: justify;
+  }
+  .des-mounting_inner_item {
+    flex-basis: 100%;
+  }
+  .mounting_inner_item-info {
+    max-width: 100%;
+    text-align: justify;
+  }
+  .mounting_inner_item-info.margin-b-200 {
+    margin-bottom: 40px;
+  }
+  .des-system_inner {
+    flex-wrap: wrap;
+  }
+  .des-system_inner_item {
+    flex-basis: 100%;
+    margin: 0 0 20px 0;
+  }
+  .des-system_inner_item:nth-child(2) {
+    margin-left: 0;
+  }
+  .appfield-block {
+    flex-wrap: wrap;
+  }
+  .appfield-block.wrap-reverse {
+    flex-wrap: wrap-reverse;
+  }
+  .appfield-block_item {
+    flex-basis: 100%;
+    text-align: center;
+  }
+  .appfield-block_item_imgs {
+    justify-content: center;
+  }
+  .appfield-block_item_title {
+    font-size: 1.9rem;
+  }
+  .appfield-block_item_text {
+    max-width: 100%;
+  }
+  // end page disinfection
+}
+
+@media screen and (max-width: 720px) {
+  .section-title {
+    font-size: 2.275rem;
+  }
+  .section-subtitle {
+    font-size: 2.075rem
+  }
+  .footer-section:nth-child(1) {
+    max-width: 100%;
+    width: 100%;
+  }
+  .footer-section:nth-child(2) {
+  margin: 30px 0px 0px 0px;
+  }
+  .footer-section:nth-child(2){
+    margin-right: 15px;
+  }
+  .footer-bottom {
+    flex-direction: column;
+    align-items: center;
+  }
+  .footer-copy {
+    margin-bottom: 10px;
+  }
+  // page about
+  .company {
+    margin-top: 40px;
+  }
+  .textimage_content,
+  .textimage_image {
+    width: 100%;
+  }
+  .about-info-text {
+    max-width: initial;
+  }
+  .history-bottom {
+    margin-bottom: 0;
+  }
+  // end page about
+
+  // page deactivation
+  .deact-tech-text {
+    font-size: 1rem;
+  }
+  .textimage_content-title {
+    text-align: center;
+  }
+  .deact-for .textimage_content {
+    padding: 0 0 0 90px;
+  }
+  // section deact-treatment
+  .deact-treatment .section-title {
+    font-size: 2rem;
+  }
+  .deact-treatment-text {
+    padding: 0px 15px 0px 15px;
+  }
+  // end section deact-treatment
+  // end page deactivation
+
+  // page clearing
+  .clearing_info-bottom-item {
+    flex-wrap: wrap;
+  }
+  .clearing_info-bottom-item .iconcard {
+    flex-basis: 100%;
+    margin: auto;
+  }
+  .clearing_info-bottom-chart {
+    flex-basis: 100%;
+    margin-left: 0;
+    margin-top: 20px;
+  }
+  .transit-tech-process {
+    flex-wrap: wrap;
+  }
+  .transit-tech-process_item {
+    flex-basis: 100%;
+  }
+  .transit-tech-process_item:nth-child(1) {
+    margin-right: 0;
+    margin-bottom: 45px;
+  }
+  .transit-tech-process_item:nth-child(2) {
+    margin-left: 0;
+  }
+  .transit-tech-process_icon {
+    margin: 0 auto 20px;
+  }
+  .transit-tech-process_text {
+    text-align: justify;
+  }
+  .customer-get_info-block {
+    padding: 50px 20px 20px;
+  }
+  .customer-get_info_card {
+    flex-wrap: wrap;
+  }
+  .customer-get_info_card-item {
+    flex-basis: 100%;
+    margin-bottom: 30px;
+  }
+  // end page clearing
+}
+
+@media screen and (max-width: 580px) {
+  .about-title-bg {
+    top: 57px;
+  }
+  .about-title {
+    font-size: 1.5rem;
+    padding: 3px 100px 3px 20px;  
+  }
+  // page deactivation
+  .infocards {
+    flex-wrap: wrap;
+  }
+  .infocards_item {
+    width: 99%;
+  }
+  .deact-tech-symbols img {
+    width: 70%;
+  }
+  .stages-infobox {
+    padding: 12px 20px 15px 20px;
+    font-size: 1.3rem;
+  }
+  .stages-infobox img {
+    margin-right: 20px;
+  }
+  // end page deactivation
+
+  // page clearing
+  .clearing_info-inner-content,
+  .clearing_info-inner-image {
+    flex-basis: 100%;
+  }
+  .clearing_info-inner-content {
+    max-width: 100%;
+  }
+  .clearing-order_cards {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .clearing-order_cards .iconcard {
+    flex-basis: 100%;
+  }
+  .transit-tech-result_imgblock {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .transit-tech-result_imgblock_item {
+    flex-basis: 100%;
+  }
+  .transit-tech-result_imgblock_item:nth-child(2) {
+    margin: 20px 0;
+  }
+  // end page clearing
+}
+
+@media screen and (max-width: 500px) {
+  .section-title {
+    font-size: 2rem;
+  }
+  .section-subtitle {
+    font-size: 1.8rem;
+  }
+  .iconcard {
+    padding: 15px;
+  }
+  .iconcard_img {
+    width: 80px;
+    height: 80px;
+  }
+ 
+  // page deactivation
+  .textimage_content-title {
+    font-size: 2rem;
+  }
+  .stages-infobox {
+    padding: 10px 16px 14px 16px;
+    font-size: 1rem;
+  }
+  .stages-infobox img {
+    width: 60px;
+    margin-right: 20px;
+  }
+  .deact-treatment .section-title {
+    font-size: 1.8rem;
+  }
+  // end page deactivation
+
+  // page clearing
+  .clearing-offers_inner {
+    flex-direction: column;
+  }
+  .clearing-offers_inner_image {
+    margin-bottom: 20px;
+  }
+  .clearing-offers_inner {
+    margin-top: 0;
+  }
+  // end page clearing
+}
+
+@media screen and (max-width: 390px) {
+  .section-title {
+    font-size: 1.9rem;
+  }
+  .section-subtitle {
+    font-size: 1.7rem;
+  }
+  .header-logo img {
+    width: 145px;
+  }
+  .wideimg-title {
+    font-size: 1.5rem;
+  }
+  .about {
+    margin-bottom: 90px;
+    padding-top: 60px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .about-title {
+    font-size: 1.3rem;
+    padding: 3px 80px 3px 20px;
+  }
+  .about-info {
+    padding: 30px 15px 30px 15px;
+    font-size: 0.875rem;
+  }
+  .img-block_item img {
+    height: 60px;
+  }
+  .about-info-text {
+    padding-right: 10px;
+  }
+}
