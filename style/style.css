@@ -115,7 +115,22 @@ h1, h2, h3, h4, h5, h6 {
 
 .courses {
 padding-bottom: 100px;
-margin-bottom: 50px;
+}
+
+.pdf_download {
+  text-align: center;
+  padding-bottom: 100px;
+  margin-bottom: 50px;
+}
+
+.pdf_link {
+  text-decoration: none;
+  color: #526269;
+  font-size: 1.6rem;
+}
+
+.img_pdf {
+  width: 100px;
 }
 
 /* media */
@@ -172,6 +187,11 @@ margin-bottom: 50px;
   html {
     font-size: 4px;
   }
+
+  .header {
+    padding-top: 40px;
+  }
+
   .headerImg {
     width: 100px;
   }
@@ -185,4 +205,18 @@ margin-bottom: 50px;
   .main {
     margin-top: 50px;
   }
+
+  .courses {
+    padding-bottom: 40px;  
+  }
+
+  .pdf_download {
+    padding-bottom: 50px;
+    margin-bottom: 20px;
+  }  
+
+  .img_pdf {
+    width: 40px;
+  }
+
 }
